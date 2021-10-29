@@ -20,3 +20,5 @@ if __name__ == '__main__':
             df.to_excel(args.output_file, index=False)
         else:
             print("Invalid json!")
+    else:
+        print("Expected only 1 output file name parameter")
